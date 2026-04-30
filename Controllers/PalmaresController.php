@@ -22,7 +22,7 @@ class PalmaresController extends BaseController {
             ],
         ];
 
-        $this->render('palmares/index', [
+        $this->render('palmares', [
             'palmares' => $palmares,
         ], 'Palmarès — SCV Marchovelette');
     }

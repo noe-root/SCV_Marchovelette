@@ -24,7 +24,7 @@ class ContactController extends BaseController {
             }
         }
 
-        $this->render('contact/index', [
+        $this->render('contact', [
             'message' => $message,
             'error'   => $error,
         ], 'Contact — SCV Marchovelette');

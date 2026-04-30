@@ -32,7 +32,7 @@ class HomeController extends BaseController {
             ['nom' => 'Grand Prix de Wallonie U19',  'date' => '2025-05-18', 'lieu' => 'Liège'],
         ];
 
-        $this->render('home/index', [
+        $this->render('home', [
             'actualites'      => $actualites,
             'prochainsCourses' => $prochainsCourses,
         ], 'Accueil — SCV Marchovelette');
@@ -40,6 +40,6 @@ class HomeController extends BaseController {
 
     public function notFound(): void {
         http_response_code(404);
-        $this->render('errors/404', [], '404 — Page introuvable');
+        $this->render('404', [], '404 — Page introuvable');
     }
 }

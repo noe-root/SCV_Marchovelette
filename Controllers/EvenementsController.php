@@ -18,7 +18,7 @@ class EvenementsController extends BaseController {
             ['nom' => 'Grand Prix du Printemps U19', 'date' => '2025-03-23', 'lieu' => 'Namur',       'resultat' => '2e — Antoine Renard'],
         ];
 
-        $this->render('evenements/index', [
+        $this->render('evenements', [
             'prochains' => $prochains,
             'passes'    => $passes,
         ], 'Événements — SCV Marchovelette');

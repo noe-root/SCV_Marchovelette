@@ -20,7 +20,7 @@ class ClubController extends BaseController {
             ['nom' => 'Didier Wathelet',       'role' => 'Entraîneur Principal'],
         ];
 
-        $this->render('club/index', [
+        $this->render('club', [
             'coureurs' => $coureurs,
             'staff'    => $staff,
         ], 'Le Club — SCV Marchovelette');
