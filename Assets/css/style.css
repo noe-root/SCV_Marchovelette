@@ -1354,7 +1354,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .form-group textarea::placeholder {
   color: var(--gray);
 }
-.form-group select option { background: var(--dark-3); }
+.form-group select option { background: var(--dark-2); }
 .form-group textarea { resize: vertical; min-height: 140px; }
 .form-row {
   display: grid;
