@@ -8,7 +8,7 @@ define('DB_CHARSET', 'utf8mb4');
 
 // ─── Configuration du site ────────────────────────────────────────────────────
 define('SITE_NAME', 'SCV Marchovelette');
-define('SITE_URL', 'http://localhost/scv-marchovelette');
+define('SITE_URL', 'http://localhost:3000');
 define('BASE_PATH', __DIR__ . '/..');
 
 // ─── Autoload simple ──────────────────────────────────────────────────────────
