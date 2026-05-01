@@ -7,15 +7,15 @@
     </div>
     <div class="page-hero__deco" aria-hidden="true">
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="100" cy="100" r="90" fill="none" stroke="#f5c400" stroke-width="1" opacity="0.15"/>
-            <circle cx="100" cy="100" r="55" fill="none" stroke="#f5c400" stroke-width="0.8" opacity="0.1"/>
-            <circle cx="100" cy="100" r="6"  fill="#f5c400" opacity="0.3"/>
+            <circle cx="100" cy="100" r="90" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.15"/>
+            <circle cx="100" cy="100" r="55" fill="none" stroke="#6366f1" stroke-width="0.8" opacity="0.1"/>
+            <circle cx="100" cy="100" r="6"  fill="#6366f1" opacity="0.3"/>
             <?php for ($i = 0; $i < 12; $i++): ?>
                 <?php $a = $i * 30; $r = deg2rad($a); ?>
                 <line x1="100" y1="100"
                       x2="<?= round(100 + 90 * cos($r)) ?>"
                       y2="<?= round(100 + 90 * sin($r)) ?>"
-                      stroke="#f5c400" stroke-width="0.6" opacity="0.1"/>
+                      stroke="#6366f1" stroke-width="0.6" opacity="0.1"/>
             <?php endfor; ?>
         </svg>
     </div>

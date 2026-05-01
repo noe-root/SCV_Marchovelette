@@ -7,17 +7,17 @@
         <div class="hero__grid"></div>
         <!-- Roue décorative SVG animée -->
         <svg class="hero__wheel-deco" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="200" cy="200" r="190" fill="none" stroke="#f5c400" stroke-width="1" opacity="0.08"/>
-            <circle cx="200" cy="200" r="140" fill="none" stroke="#f5c400" stroke-width="0.5" opacity="0.06"/>
-            <circle cx="200" cy="200" r="80"  fill="none" stroke="#f5c400" stroke-width="0.5" opacity="0.06"/>
+            <circle cx="200" cy="200" r="190" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.08"/>
+            <circle cx="200" cy="200" r="140" fill="none" stroke="#6366f1" stroke-width="0.5" opacity="0.06"/>
+            <circle cx="200" cy="200" r="80"  fill="none" stroke="#6366f1" stroke-width="0.5" opacity="0.06"/>
             <?php for ($i = 0; $i < 18; $i++): ?>
                 <?php $angle = $i * 20; $rad = deg2rad($angle); ?>
                 <line x1="200" y1="200"
                       x2="<?= round(200 + 190 * cos($rad)) ?>"
                       y2="<?= round(200 + 190 * sin($rad)) ?>"
-                      stroke="#f5c400" stroke-width="0.5" opacity="0.05"/>
+                      stroke="#6366f1" stroke-width="0.5" opacity="0.05"/>
             <?php endfor; ?>
-            <circle cx="200" cy="200" r="12" fill="#f5c400" opacity="0.15"/>
+            <circle cx="200" cy="200" r="12" fill="#6366f1" opacity="0.15"/>
         </svg>
     </div>
 
@@ -111,9 +111,9 @@
                 <div class="news-card__img">
                     <div class="news-card__img-placeholder">
                         <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="32" cy="32" r="28" stroke="#f5c400" stroke-width="1.5" opacity="0.3"/>
-                            <circle cx="32" cy="32" r="14" stroke="#f5c400" stroke-width="1.5" opacity="0.3"/>
-                            <circle cx="32" cy="32" r="4" fill="#f5c400" opacity="0.5"/>
+                            <circle cx="32" cy="32" r="28" stroke="#6366f1" stroke-width="1.5" opacity="0.3"/>
+                            <circle cx="32" cy="32" r="14" stroke="#6366f1" stroke-width="1.5" opacity="0.3"/>
+                            <circle cx="32" cy="32" r="4" fill="#6366f1" opacity="0.5"/>
                         </svg>
                     </div>
                     <div class="news-card__number"><?= str_pad($i + 1, 2, '0', STR_PAD_LEFT) ?></div>

@@ -9,7 +9,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,600;0,700;0,900;1,700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Barlow+Condensed:ital,wght@0,300;0,600;0,700;0,900;1,700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- CSS principal -->
     <link rel="stylesheet" href="<?= SITE_URL ?>/Assets/css/style.css">
@@ -20,9 +20,9 @@
 <div class="loader" id="loader">
     <div class="loader__inner">
         <svg class="loader__wheel" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="40" cy="40" r="32" fill="none" stroke="#f5c400" stroke-width="4" stroke-dasharray="50 150" stroke-linecap="round"/>
-            <circle cx="40" cy="40" r="18" fill="none" stroke="#f5c400" stroke-width="2" opacity="0.4"/>
-            <circle cx="40" cy="40" r="4" fill="#f5c400"/>
+            <circle cx="40" cy="40" r="32" fill="none" stroke="#6366f1" stroke-width="4" stroke-dasharray="50 150" stroke-linecap="round"/>
+            <circle cx="40" cy="40" r="18" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.4"/>
+            <circle cx="40" cy="40" r="4" fill="#6366f1"/>
         </svg>
         <span class="loader__text">SCV<strong>MARCHOVELETTE</strong></span>
     </div>
@@ -38,7 +38,7 @@
                 <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="2.5"/>
                     <circle cx="24" cy="24" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
-                    <circle cx="24" cy="24" r="3" fill="#f5c400"/>
+                    <circle cx="24" cy="24" r="3" fill="#6366f1"/>
                     <line x1="24" y1="4" x2="24" y2="14" stroke="currentColor" stroke-width="2"/>
                     <line x1="24" y1="34" x2="24" y2="44" stroke="currentColor" stroke-width="2"/>
                     <line x1="4" y1="24" x2="14" y2="24" stroke="currentColor" stroke-width="2"/>
@@ -102,13 +102,13 @@
         <div class="footer__brand">
             <div class="footer__logo">
                 <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" width="36" height="36">
-                    <circle cx="24" cy="24" r="20" fill="none" stroke="#f5c400" stroke-width="2.5"/>
-                    <circle cx="24" cy="24" r="10" fill="none" stroke="#f5c400" stroke-width="2"/>
-                    <circle cx="24" cy="24" r="3" fill="#f5c400"/>
-                    <line x1="24" y1="4" x2="24" y2="14" stroke="#f5c400" stroke-width="2"/>
-                    <line x1="24" y1="34" x2="24" y2="44" stroke="#f5c400" stroke-width="2"/>
-                    <line x1="4" y1="24" x2="14" y2="24" stroke="#f5c400" stroke-width="2"/>
-                    <line x1="34" y1="24" x2="44" y2="24" stroke="#f5c400" stroke-width="2"/>
+                    <circle cx="24" cy="24" r="20" fill="none" stroke="#6366f1" stroke-width="2.5"/>
+                    <circle cx="24" cy="24" r="10" fill="none" stroke="#a855f7" stroke-width="2"/>
+                    <circle cx="24" cy="24" r="3" fill="#6366f1"/>
+                    <line x1="24" y1="4" x2="24" y2="14" stroke="#6366f1" stroke-width="2"/>
+                    <line x1="24" y1="34" x2="24" y2="44" stroke="#6366f1" stroke-width="2"/>
+                    <line x1="4" y1="24" x2="14" y2="24" stroke="#6366f1" stroke-width="2"/>
+                    <line x1="34" y1="24" x2="44" y2="24" stroke="#6366f1" stroke-width="2"/>
                 </svg>
                 <span>SCV <strong>Marchovelette</strong></span>
             </div>

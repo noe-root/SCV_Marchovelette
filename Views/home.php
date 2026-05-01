@@ -7,15 +7,15 @@
     </div>
     <div class="page-hero__deco" aria-hidden="true">
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="100" cy="100" r="90" fill="none" stroke="#f5c400" stroke-width="1" opacity="0.15"/>
-            <circle cx="100" cy="100" r="55" fill="none" stroke="#f5c400" stroke-width="0.8" opacity="0.1"/>
-            <circle cx="100" cy="100" r="6"  fill="#f5c400" opacity="0.3"/>
+            <circle cx="100" cy="100" r="90" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.15"/>
+            <circle cx="100" cy="100" r="55" fill="none" stroke="#6366f1" stroke-width="0.8" opacity="0.1"/>
+            <circle cx="100" cy="100" r="6"  fill="#6366f1" opacity="0.3"/>
             <?php for ($i = 0; $i < 12; $i++): ?>
                 <?php $a = $i * 30; $r = deg2rad($a); ?>
                 <line x1="100" y1="100"
                       x2="<?= round(100 + 90 * cos($r)) ?>"
                       y2="<?= round(100 + 90 * sin($r)) ?>"
-                      stroke="#f5c400" stroke-width="0.6" opacity="0.1"/>
+                      stroke="#6366f1" stroke-width="0.6" opacity="0.1"/>
             <?php endfor; ?>
         </svg>
     </div>
@@ -70,8 +70,8 @@
                 <div class="rider-card__number"><?= str_pad($coureur['numero'], 2, '0', STR_PAD_LEFT) ?></div>
                 <div class="rider-card__avatar">
                     <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="30" cy="22" r="11" stroke="#f5c400" stroke-width="1.5"/>
-                        <path d="M10 52c0-11 9-20 20-20s20 9 20 20" stroke="#f5c400" stroke-width="1.5" stroke-linecap="round"/>
+                        <circle cx="30" cy="22" r="11" stroke="#6366f1" stroke-width="1.5"/>
+                        <path d="M10 52c0-11 9-20 20-20s20 9 20 20" stroke="#6366f1" stroke-width="1.5" stroke-linecap="round"/>
                     </svg>
                 </div>
                 <div class="rider-card__info">
@@ -100,8 +100,8 @@
             <div class="staff-card reveal" style="--delay: <?= $i * 0.1 ?>s">
                 <div class="staff-card__icon">
                     <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="20" cy="14" r="7" stroke="#f5c400" stroke-width="1.5"/>
-                        <path d="M6 36c0-7.7 6.3-14 14-14s14 6.3 14 14" stroke="#f5c400" stroke-width="1.5" stroke-linecap="round"/>
+                        <circle cx="20" cy="14" r="7" stroke="#6366f1" stroke-width="1.5"/>
+                        <path d="M6 36c0-7.7 6.3-14 14-14s14 6.3 14 14" stroke="#6366f1" stroke-width="1.5" stroke-linecap="round"/>
                     </svg>
                 </div>
                 <h3 class="staff-card__name"><?= htmlspecialchars($membre['nom']) ?></h3>
