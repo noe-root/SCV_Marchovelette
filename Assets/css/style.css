@@ -1,25 +1,30 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   SCV MARCHOVELETTE — Modern Professional Design
+   SCV MARCHOVELETTE — Luminous Futuristic Light Theme
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ─── CSS CUSTOM PROPERTIES ──────────────────────────────────────────────── */
 :root {
-  /* Colors */
-  --yellow:       #f5c400;
-  --yellow-dark:  #d4a900;
-  --yellow-dim:   rgba(245, 196, 0, 0.12);
-  --black:        #080808;
-  --dark:         #111111;
-  --dark-2:       #191919;
-  --dark-3:       #242424;
-  --dark-4:       #2e2e2e;
-  --gray:         #808080;
-  --gray-light:   #b0b0b0;
-  --white:        #ffffff;
-  --off-white:    #f6f6f4;
-  --text-muted:   rgba(255,255,255,0.45);
-  --border:       rgba(255,255,255,0.07);
-  --border-hover: rgba(245,196,0,0.35);
+  /* Primary accent: electric blue (replaces yellow throughout) */
+  --yellow:       #3b82f6;
+  --yellow-dark:  #2563eb;
+  --yellow-dim:   rgba(59,130,246,0.10);
+  /* Background layers — light theme */
+  --black:        #0f172a;
+  --dark:         #f5f8ff;
+  --dark-2:       #edf2ff;
+  --dark-3:       rgba(255,255,255,0.78);
+  --dark-4:       rgba(255,255,255,0.58);
+  --gray:         #64748b;
+  --gray-light:   #475569;
+  --white:        #1e293b;
+  --off-white:    #e8f0ff;
+  --text-dark:    #1e293b;
+  --text-muted:   rgba(30,41,59,0.45);
+  --border:       rgba(59,130,246,0.13);
+  --border-hover: rgba(59,130,246,0.38);
+  /* Purple secondary accent */
+  --purple:       #8b5cf6;
+  --purple-dim:   rgba(139,92,246,0.08);
 
   /* Typography */
   --font-heading: 'Barlow Condensed', sans-serif;
